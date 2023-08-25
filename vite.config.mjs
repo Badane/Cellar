@@ -6,6 +6,7 @@ import 'npm:vue-router'
 import "npm:vue-content-loader"
 
 import "npm:pinia"
+import "npm:vee-validate"
 
 export default defineConfig({
   plugins: [vue()]

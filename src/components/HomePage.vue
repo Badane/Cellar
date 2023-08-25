@@ -3,20 +3,22 @@
   import { ContentLoader } from 'vue-content-loader'
   // internal
   import Dinosaurs from './Dinos.vue'
+  import Bottles from './Bottles.vue'
 
   export default {
     components:{
       Dinosaurs,
-      ContentLoader
+      ContentLoader,
+      Bottles
     }
   }
 </script>
 
 <template>
   <div>
-    
+    <Bottles/>
   </div>
-  <Suspense>
+  <!-- <Suspense>
     <template #default>
       <Dinosaurs/>
     </template>
@@ -35,7 +37,7 @@
         <circle cx="20" cy="20" r="20" />
       </content-loader>
     </template>
-  </Suspense>
+  </Suspense> -->
 </template>
 
 <style scoped>

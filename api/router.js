@@ -3,7 +3,7 @@ import * as firestore from "https://cdn.skypack.dev/firebase@10.1.0/firestore";
 
 import "./firebaseConfig.js"
 import data from "./data.json" assert {type: "json"};
-import {Song, songRepository} from "./models/song.ts"
+import Song from "./models/song.ts"
 
 const router = new Router();
 
